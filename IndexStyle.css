@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    font-family: "Nunito";
+    scroll-behavior: smooth;
+}
+.Show{
+    display: block;
+}
+
+#HeaderBanner{
+    position: relative;
+    width: 100%;
+    height: 30px;
+}
+#HeaderBanner div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    background-color: #FF851B;
+}
+#HeaderBanner p{
+    color: #001F3F;
+    font-size: 14px;
+    font-weight: 600;
+}
+#HeaderBanner img{
+    position: relative;
+    height: 15px;
+    top: 2px;
+}
+
+
+
+#TopNavigationBar div{
+    transition: transform 0.3s ease; 
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 4px 10.5px 0px hsla(0, 0%, 0%, 0.25) ;
+}
+#TopNavigationBar{
+    z-index: 10;
+    position: sticky;
+    top: 0;
+}
+#TopNavigationBar ul{
+    display: flex;
+    gap: 26px;
+    list-style: none;
+}
+#TopNavigationBar a{
+    transition: .15s ease;
+    text-decoration: none;
+    color: #001F3F;
+    font-size: 18px;
+    font-weight: 400;
+}
+#TopNavigationBar a:hover{
+    color: #001F3F;
+    font-size: 18px;
+    font-weight: 900;
+}
+#TopNavigationBar img{
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    left: 25px;
+    top: 10px;
+    width: 65px;
+}
+#NavigationBarText{
+    position: absolute;
+    top: 28px;
+    right: 45%;
+}
+#NavigationBarButtons{
+    position: absolute;
+    top: 28px;
+    right: 25px;
+}
+#NavigationBarButtons a{
+    outline: 3px solid rgb(0, 31, 61);
+    padding: 6px 23px 6px 23px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+#Socialmedia a{
+    transition: .15s ease;
+    color: #39CCCC; outline-color: #39CCCC;
+}
+#Kontakt a{
+    transition: .15s ease;
+    color: #001F3F; outline-color: #001F3F;
+}
+#Socialmedia a:hover{
+    font-size: 16px;
+    color: white;
+    background-color: #39CCCC;
+    font-weight: 400;
+}
+#Kontakt a:hover{
+    font-size: 16px;
+    color: white;
+    background-color: #001F3F;
+    font-weight: 400;
+}
+.ShowNavBar{
+    transform: translateX(0px);
+}
+.HideNavBar{
+    transform: translateY(-90px);
+}
+#BurgerMenubuttonContainer{
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#BurgerMenuContainer{
+    display: none;
+}
+#BurgerMenubutton{
+    z-index: 12;
+    position: absolute;
+    border-style: none;
+    padding: 20px;
+    right: 20px;
+    top: 20px;
+    background-color: #00000000;
+}
+#BurgerMenubuttonClose{
+    z-index: 22;
+    position: absolute;
+    border-style: none;
+    padding: 20px;
+    right: 20px;
+    top: 20px;
+    background-color: #00000000;
+}
+#MenuIMG{
+    position: absolute;
+    z-index: 10;
+    top: 5px;
+    right: 98px;
+}
+#MenuNavMenu{
+    display: none;
+    z-index: 11;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: #ffffff;
+}
+#BurgerMenubuttonClose div{
+    position: absolute;
+    height: 50px;
+    top: 0;
+}
+#MenuLinks {
+    position: absolute;
+    top: 80px;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    width: 100%;
+    height: calc(100vh - 80px); /* Ganze Ansichtshöhe minus der Top-Abstand */
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#MenuLinks li {
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #001F3F;
+    width: 100%;
+    flex: 1; /* Jeder Listeneintrag nimmt denselben Platz ein */
+}
+#MenuLinks a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    text-decoration: none;
+    color: #39CCCC;
+}
+
+
+
+
+
+#WilkommenBanner{
+    position: relative;
+    top: -80px;
+    width: 100%;
+    height: 780px;
+    background: linear-gradient(rgba(0, 31, 61, 0.9), rgba(0, 31, 61, 0.9)),
+    url('Images/Screenshot\ 2023-10-18\ 231702.png') no-repeat center center;
+    background-size: cover;
+}
+#WilkommenBannerInhaltPosition{
+    position: absolute;
+    top: 5.4em;
+    left: 15%;
+    font-size: 30px; 
+    width: 600px;
+    color: white;
+}
+#WilkommenBannerGruß{
+    color: #39CCCC;
+   font-size: 50px; 
+   font-weight: 900;
+}
+#WilkommenBanner img{
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    height: 40em;
+    left: 60%;
+    bottom: 0;
+}
+
+
+#NavigationBarBanner {
+    top: -10px;
+    height: 75em;
+    position: relative;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+#NavigationBarBanner section {
+    margin: auto;
+    background-color: #39CCCC;
+    width: 400px;
+    height: 545px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    box-shadow: 0 0 6.5px 2px rgba(0, 0, 0, 0.25);
+}
+.NavigationBarBannerConntetnPosition{
+    position: relative;
+    border-radius: 15px;
+    color: #001F3F;
+}
+.NavigationBarBannerConntetnPosition h2{
+    position: absolute;
+    font-size: 48px;
+    top: 45px;
+    font-weight: 900;
+}
+.NavigationBarBannerConntetnPosition p{
+    position: absolute;
+    width: 311px;
+    top: 140px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.NavigationBarBannerConntetnPosition a{
+    transition: .15s ease;
+    position: absolute;
+    text-decoration: none;
+    color: #39CCCC;
+    background-color: #001F3F;
+
+    font-size: 24px;
+    
+
+    padding: 16px 50px;
+
+    border-radius: 10px;
+    outline: 3px solid #001F3F;
+    outline-offset: -3px;
+
+    bottom: 45px;
+}
+.NavigationBarBannerConntetnPosition a:hover{
+    outline-offset: 4px;
+}
+
+
+
+
+#ButtonImageSlideShowLeft{
+    transition: .2s ease;
+    position: absolute;
+    z-index: 1;
+    left: 62%;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 31, 63, .40);
+    border: none;
+    border-radius: 10px;
+    top: 14em;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(57, 204, 204, .25);
+}
+#ButtonImageSlideShowRight{
+    transition: .2s ease;
+    position: absolute;
+    z-index: 1;
+    right: 2%;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 31, 63, .40);
+    border: none;
+    border-radius: 10px;
+    top: 14em;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(57, 204, 204, .25);
+}
+#ButtonImageSlideShowLeft:hover{
+    color: rgba(57, 204, 204,1);
+    background-color: rgba(0, 31, 63, 1);
+}
+#ButtonImageSlideShowRight:hover{
+    color: rgba(57, 204, 204, 1);
+    background-color: rgba(0, 31, 63, 1);
+}
+
+
+
+#AnderProjekteOderSachenAbteil{
+    position: relative;
+    background-color: #39CCCC;
+    width: 100%;
+    height: 600px;
+}
+.AndereProjekteInfos{
+    color: #001F3F;
+    position: absolute;
+    font-size: 24px;
+    font-weight: 400;
+    width: 60%;
+    left: 0;
+}
+.AndereProjekteInfos p{
+    color: #001F3F;
+    width: 85%;
+    margin: 40px;
+}
+.AndereProjekteInfos h2{
+    margin: 30px;
+    font-size: 48px;
+    font-weight: 900;
+}
+.AndereProjekteFotos{
+    position: absolute;
+    margin: 0px;
+    width: 40%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #39CCCC;
+    color: #39CCCC;
+}
+.AndereProjekteFotos div {
+    position: relative;
+    margin: auto;
+    width: 90%;
+    height: 86.4%;
+    top: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AndereProjekteFotos div > img {
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    box-shadow: 0 0 6.5px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    max-height: 500px;
+    width: 100%; /* Breite des Bildes */
+    object-fit: contain; /* Bild an div-Größe anpassen ohne Verzerrung */
+}
+.hidden{
+    display: none;
+}
+
+
+
+
+#LinkTree{
+    position: relative;
+    top: 15em;
+    height: 100%;
+}
+#LinkTree section{
+    color: white;
+    position: relative;
+    width: 80%;
+    margin: 70px auto;
+    padding: 20px;
+    height: 80px;
+    background-color: #001F3F;
+    border-radius: 15px;  
+}
+#LinkTree span{
+    position: absolute;
+    top: 34px;
+    margin: 0 50px;
+    font-size: 40px;
+    font-weight: 900;
+}
+#LinkTree p{
+    position: absolute;
+    top: 27px;
+    right: 30%;
+    width: 40%;
+    margin: 0 50px;
+    font-size: 24px;
+    font-weight: 400;
+}
+#LinkTree a{
+    transition: .15s ease;
+    position: absolute;
+    text-decoration: none;
+    color: #39CCCC;
+    background-color: white;
+
+    font-size: 24px;
+    
+
+    padding: 16px 50px;
+
+    border-radius: 10px;
+    outline: 3px solid white;
+    outline-offset: -3px;
+
+    margin: 0 50px;
+    right: 0;
+    bottom: 28px;
+}
+#LinkTree a:hover{
+    outline-offset: 4px;
+}
+
+
+
+#Datenschutz{
+    position: relative;
+    top: 28em;
+    background-color: #001F3F;
+    color: #39CCCC;
+    height: 8em;
+}
+#Datenschutz a{
+    position: absolute;
+    width: 100%;
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff5d;
+}

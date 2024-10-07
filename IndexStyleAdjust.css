@@ -1,0 +1,468 @@
+@media (max-width: 1660px) {
+    .AndereProjekteInfos{
+        font-size: 24px;
+        width: 60%;
+    }
+    .AndereProjekteInfos h2{
+        font-size: 40px;
+    }
+}
+@media (max-width: 1490px) {
+    .AndereProjekteInfos{
+        font-size: 23px;
+        font-weight: 400;
+        width: 60%;
+        left: 0;
+    }
+
+
+
+    #WilkommenBanner{
+        height: 600px;
+    }
+    #WilkommenBannerInhaltPosition{
+        top: 6em;
+        left: 10%;
+        font-size: 26px; 
+        width: 450px;
+    }
+    #WilkommenBannerGruß{
+       font-size: 44px; 
+    }
+    #WilkommenBanner img{
+        height: 32em;
+        left: 58%;
+    }
+}
+
+@media (max-width: 1410px) {
+    .AndereProjekteInfos{
+        z-index: 3;
+        font-size: 22px;
+        font-weight: 400;
+        width: 65%;
+        left: 0;
+    }
+    .AndereProjekteInfos h2{
+        width: 100%;
+        font-size: 36px;
+    }
+
+
+
+    #NavigationBarBanner {
+        top: -20px;
+        height: 50em;
+        grid-template-columns: repeat(auto-fit, minmax(0px, 1fr));
+        padding: 20px;
+    }
+    #NavigationBarBanner section {
+        width: 340px;
+        height: 485px;
+    }
+    .NavigationBarBannerConntetnPosition h2{
+        font-size: 40px;
+        top: 45px;
+    }
+    .NavigationBarBannerConntetnPosition p{
+        width: 251px;
+        top: 140px;
+        font-size: 20px;
+    }
+    .NavigationBarBannerConntetnPosition a{
+        font-size: 20px;  
+        padding: 16px 50px;
+        bottom: 45px;
+    }
+}
+
+
+@media (max-width: 1240px) {
+    #NavigationBarBanner {
+        top: -20px;
+        height: 100%;
+        margin: 12em 0;
+        gap: 10em;
+        padding: 0px;
+        width: 100%;
+        grid-template-columns: auto;
+    }
+    #NavigationBarBanner section {
+        width: 340px;
+        height: 485px;
+    }
+    .NavigationBarBannerConntetnPosition h2{
+        font-size: 40px;
+        top: 45px;
+    }
+    .NavigationBarBannerConntetnPosition p{
+        width: 251px;
+        top: 140px;
+        font-size: 20px;
+    }
+    .NavigationBarBannerConntetnPosition a{
+        font-size: 20px;  
+        padding: 16px 50px;
+        bottom: 45px;
+    }
+
+
+
+
+    #AnderProjekteOderSachenAbteil{
+        height: 1000px;
+    }
+    .AndereProjekteInfos{
+        color: #001F3F;
+        position: absolute;
+        font-size: 23px;
+        font-weight: 400;
+        width: 95%;
+        left: 0;
+    }
+    .AndereProjekteInfos p{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #001F3F;
+        width: 100%;
+        height: 325px;
+        margin: 30px;
+    }
+    .AndereProjekteInfos h2{
+        margin: 30px;
+        font-size: 40px;
+    }
+    .AndereProjekteFotos{
+        width: 100%;
+        bottom: 0;
+        top: 550px;
+        background-color: #001F3F;
+        color: #001F3F;
+    }
+    .AndereProjekteFotos div {
+        height: 60.4%;
+        top: 88px;
+    }
+    
+    .AndereProjekteFotos div > img {
+        box-shadow: 0 0 6.5px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        max-height: 380px;
+    }
+
+
+
+    #ButtonImageSlideShowLeft{
+        left: 10%;
+        top: 36.8em;
+        color: #001F3F;
+        background-color: rgba(57, 204, 204, .25);
+    }
+    #ButtonImageSlideShowRight{
+        right: 10%;
+        top: 36.8em;
+        color: #001F3F;
+        background-color: rgba(57, 204, 204, .25);
+    }
+    #ButtonImageSlideShowLeft:hover{
+        background-color: rgba(57, 204, 204,1);
+        color: rgba(0, 31, 63, 1);
+    }
+    #ButtonImageSlideShowRight:hover{
+        background-color: rgba(57, 204, 204, 1);
+        color: rgba(0, 31, 63, 1);
+    }
+
+
+
+
+    #LinkTree{
+        top: 8em;
+        height: 100%;
+        height: 40em;
+    }
+    #LinkTree section{
+        width: 80%;
+        padding: 20px;
+        height: 48px;
+    }
+    #LinkTree span{
+        top: 23px;
+        margin: 0 10px;
+        font-size: 34px;
+    }
+    #LinkTree p{
+        display: flex;
+        align-items: center;
+        height: 28px;
+        right: 23%;
+        width: 44%;
+        margin: 0 50px;
+        font-size: 18px;
+    }
+    #LinkTree a{   
+        font-size: 20px;    
+        padding: 10px 44px;   
+        margin: 0 50px;
+        right: -24px;
+        bottom: 20px;
+    }
+}
+
+
+@media (max-width: 1070px) {
+    #LinkTree{
+        top: 8em;
+        height: 100%;
+        height: 40em;
+    }
+    #LinkTree section{
+        width: 80%;
+        padding: 20px;
+        height: 48px;
+    }
+    #LinkTree span{
+        margin: 0;
+        font-size: 34px;
+    }
+    #LinkTree p{
+        visibility: hidden;
+    }
+    #LinkTree a{   
+        font-size: 20px;    
+        padding: 10px 30px; 
+        width: 40%;  
+        margin: 0 50px;
+        right: -24px;
+        bottom: 20px;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 900px) {
+    #WilkommenBannerInhaltPosition{
+        top: 5em;
+        left: 5%;
+        font-size: 26px; 
+        width: 450px;
+    }
+}
+
+
+@media (max-width: 820px) {
+    #WilkommenBannerInhaltPosition{
+        top: 5em;
+        left: 5%;
+        font-size: 26px; 
+        width: 450px;
+    }
+
+
+
+    #BurgerMenuContainer{
+        display: block;
+    }
+    #TopNavigationBar a{
+        visibility: hidden;
+    }
+
+
+    #WilkommenBanner img{
+        overflow: hidden;
+        visibility: hidden;
+        height: 0px;
+    }
+
+
+
+    .AndereProjekteInfos h2{
+        margin: 20px 20px 45px 20px;
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 720px) {
+    #WilkommenBannerInhaltPosition{
+        top: 5em;
+        left: 5%;
+        font-size: 26px; 
+        width: 450px;
+    }
+
+
+    #WilkommenBanner img{
+        position: absolute;
+        overflow: hidden;
+        visibility: hidden;
+        height: 0px;
+        left: 0;
+    }
+
+
+    .AndereProjekteInfos h2{
+        margin: 20px 0px 45px 20px;
+        font-size: 28px;
+    }
+    .AndereProjekteInfos p{
+        width: 96%;
+        font-size: 20px;
+    }
+    #ButtonImageSlideShowLeft{
+        left: 4%;
+    }
+    #ButtonImageSlideShowRight{
+        right: 4%;
+    }
+}
+
+
+@media (max-width: 620px) {
+    #LinkTree{
+        top: 5em;
+    }
+    #LinkTree section{
+        width: 80%;
+        padding: 20px;
+        height: 120px;
+    }
+    #LinkTree span{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        font-size: 34px;
+    }
+    #LinkTree p{
+        visibility: hidden;
+    }
+    #LinkTree a{   
+        font-size: 20px;    
+        padding: 10px 30px; 
+        width: 70%;  
+        margin: 0 50px;
+        right: -17px;
+        bottom: 20px;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 580px) {
+    #WilkommenBannerInhaltPosition{
+        top: 5em;
+        left: 5%;
+        font-size: 26px; 
+        width: 450px;
+    }
+
+
+
+    .AndereProjekteInfos h2{
+        margin: 20px 0px 45px 20px;
+        font-size: 24px;
+    }
+    .AndereProjekteInfos p{
+        width: 96%;
+        font-size: 18px;
+    }
+    #AnderProjekteOderSachenAbteil{
+        height: 900px;
+    }
+    .AndereProjekteInfos{
+        color: #001F3F;
+        position: absolute;
+        font-size: 23px;
+        font-weight: 400;
+        width: 95%;
+        left: 0;
+    }
+    .AndereProjekteInfos p{
+        height: 290px;
+    }
+    .AndereProjekteFotos{
+        width: 100%;
+        bottom: 0;
+        top: 500px;
+        background-color: #001F3F;
+        color: #001F3F;
+    }
+    .AndereProjekteFotos div {
+        height: 60.4%;
+        top: 78px;
+    }
+    #ButtonImageSlideShowLeft{
+        top: 33.8em;
+    }
+    #ButtonImageSlideShowRight{
+        top: 33.8em;
+    }
+}
+
+
+
+@media (max-width: 580px) {
+    #WilkommenBannerInhaltPosition{
+        top: 5em;
+        left: 8%;
+        font-size: 26px; 
+        width: 350px;
+    }
+
+
+
+    .AndereProjekteInfos h2{
+        margin: 20px 0px 45px 20px;
+        font-size: 26px;
+    }
+    .AndereProjekteInfos p{
+        width: 90%;
+        font-size: 18px;
+    }
+    #AnderProjekteOderSachenAbteil{
+        height: 1040px;
+    }
+    .AndereProjekteInfos{
+        color: #001F3F;
+        position: absolute;
+        font-size: 23px;
+        font-weight: 400;
+        width: 95%;
+        left: 0;
+    }
+    .AndereProjekteInfos p{
+        height: 450px;
+    }
+    .AndereProjekteFotos{
+        width: 100%;
+        bottom: 0;
+        top: 690px;
+        background-color: #001F3F;
+        color: #001F3F;
+    }
+    .AndereProjekteFotos div {
+        height: 60.4%;
+        top: 70px;
+    }
+    #ButtonImageSlideShowLeft{
+        top: 42em;
+    }
+    #ButtonImageSlideShowRight{
+        top: 42em;
+    }
+}
+
+
+@media (max-width: 410px) {
+    #WilkommenBannerInhaltPosition{
+        top: 8em;
+        left: 5%;
+        font-size: 20px; 
+        width: 300px;
+    }
+    #WilkommenBannerInhaltPosition span{
+        font-size: 40px;
+    }
+}
