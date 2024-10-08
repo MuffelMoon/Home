@@ -22,7 +22,7 @@
         <div id="ContainerFromNavBar" class="ShowNavBar">
             <img src="Images/Logo.svg" alt="Nex Studio Logo">
             <ul id="NavigationBarText">
-                <li><a href="index.html.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="Home/Wartungsarbeiten.html">Über Mich</a></li>
                 <li><a href="Home/Projekte.html">Projekte</a></li>
                 <li><a href="Home/Wartungsarbeiten.html">Videos</a></li>
@@ -35,59 +35,48 @@
             <section id="BurgerMenuContainer">
                 <section id="BurgerMenubuttonContainer">
                     <button id="BurgerMenubutton">
+                        
                     </button>
                     <header id="MenuIMG">
-                        <img src="Icons/menu.svg" alt="menu" height='50px'></i>
+                        <img src="Icons/menu.svg" alt="menu" height='50px'>
                     </header>
                 </section>
             </section>
         </div>
     </div>
-    <script>
-        const FilterenuBt = document.getElementById('BurgerMenubutton');
-let IsVisble_b = false;
 
-
-FilterenuBt.addEventListener('click', () => {
-    if(IsVisble_b){
-        document.getElementById("MenuNavMenu").classList.add('Show');
-    }
-    else{
-        document.getElementById("MenuNavMenu").classList.remove('Show');
-    }
-
-    IsVisble_b = !IsVisble_b;
-});
-    </script>
-
-    <section id="MenuNavMenu">
-        <button id="BurgerMenubuttonClose">
-        </button>
+    <section id="MenuNavMenu" class="DontShow">
+        <button id="BurgerMenubuttonClose"></button>
         <header id="MenuIMG" style="right: 15px; top: 16px;">
-            <img src="Icons/menu.svg" alt="menu" height='50px'></i>
+            <img src="Icons/menu.svg" alt="menu" height='50px'>
         </header>
         <ul id="MenuLinks">
-            <li><a href="/index.html" style="background-color: #39CCCC; border-radius: 15px; color: #001F3F;">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="Home/Wartungsarbeiten.html">Über Mich</a></li>
-            <li><a href="Home/Projekte.html" style="background-color: #39CCCC; border-radius: 15px; color: #001F3F;">Projekte</a></li>
+            <li><a href="Home/Projekte.html">Projekte</a></li>
             <li><a href="Home/Wartungsarbeiten.html">Videos</a></li>
         </ul>
     </section>
-    <script>
-        const FilterenuB = document.getElementById('BurgerMenubuttonClose');
 
+<script>
+    const burgerButton = document.getElementById('BurgerMenubutton');
+    const closeButton = document.getElementById('BurgerMenubuttonClose');
+    const navMenu = document.getElementById('MenuNavMenu');
 
-FilterenuB.addEventListener('click', () => {
-    if(IsVisble_b){
-        document.getElementById("MenuNavMenu").classList.add('Show');
-    }
-    else{
-        document.getElementById("MenuNavMenu").classList.remove('Show');
-    }
+    let isMenuVisible = false;
 
-    IsVisble_b = !IsVisble_b;
-});
-    </script>
+    // Burger-Button (Öffnen)
+    burgerButton.addEventListener('click', () => {
+        navMenu.classList.remove('DontShow');
+        isMenuVisible = true;
+    });
+
+    // Schließen-Button
+    closeButton.addEventListener('click', () => {
+        navMenu.classList.add('DontShow');
+        isMenuVisible = false;
+    });
+</script>
     <script src="Scripts/HideNavigationBarScrollDown.js"></script>
     <!--Der Große banner welchen man direkt am start sieht-->
     <div id="WilkommenBanner">

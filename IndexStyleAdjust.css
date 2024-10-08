@@ -262,7 +262,10 @@
 
 
 
-    #BurgerMenuContainer{
+    #BurgerMenubutton{
+        display: block;
+    }
+    #MenuIMG {
         display: block;
     }
     #TopNavigationBar a{
