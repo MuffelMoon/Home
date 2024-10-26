@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/Images/Logo.svg">
+    <link rel="stylesheet" href="/ProjekteStyle.css">
+    <link rel="stylesheet" href="/IndexStyle.css">
+    <title>Projekte Nex Studio</title>
+</head>
+<body>
+
+    <!--TopNavigationbar welche immer oben am Bildschirmrand bleibt-->
+    <div id="TopNavigationBar">
+        <div id="ContainerFromNavBar" class="">
+            <img src="/Images/Logo.svg" alt="Nex Studio Logo">
+            <ul id="NavigationBarText">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/Home/Wartungsarbeiten.html">Über Mich</a></li>
+                <li><a href="Home/Projekte.html">Projekte</a></li>
+                <li><a href="/Home/Wartungsarbeiten.html">Videos</a></li>
+            </ul>
+            <ul id="NavigationBarButtons">
+                <li id="Kontakt"><a href="">Kontakt</a></li>
+            </ul>
+        </div>
+    </div>
+<script src="/Scripts/HideNavigationBarScrollDown.js"></script>
+
+
+    <div id="Explanations">
+        <div id="headerBar">
+            <header id="Header">
+                <h1>Projekte</h1>
+            </header>
+            <section id="HeaderBeschreibung">
+                <h2>Vom Jahr 2020 - 2024</h2>
+            </section>
+        </div>
+    </div>
+
+    <div>
+        <div id="FilterMenuContainer">
+            <div>
+                <div id="Button">
+                    <button id="FilterButton">
+                        <img src="/Icons/filter.svg" alt="Filter Icon">
+                    </button>
+                </div>
+                <section id="checkboxSection" class="hidden">
+                    <ul id="DatumFilterSeite">
+                        <li><input type="checkbox" name="2024" checked="checked"> 2024</li>
+                        <li><input type="checkbox" name="2023" checked="checked"> 2023</li>
+                        <li><input type="checkbox" name="2022" checked="checked"> 2022</li>
+                        <li><input type="checkbox" name="2021" checked="checked"> 2021</li>
+                        <li><input type="checkbox" name="2020" checked="checked"> 2020</li>
+                    </ul>
+
+                    <ul id="ProjektTypFilterSeite">
+                        <li><input type="checkbox" name="Unity" checked="checked"> Unity</li>
+                        <li><input type="checkbox" name="WebDev" checked="checked"> Web Entwicklung</li>
+                        <li><input type="checkbox" name="Robotik" checked="checked"> Arduino (Robotik)</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script src="/Scripts/ProjekteFilterButton.js"></script>
+    <script src="/Scripts/ProjekteFilter.js"></script>
+
+
+    <div id="ContainerSchowCase">
+        <div id="ProjektShowCase">
+            <div id="2024" class="GridLayout">
+                <span class="ZeitStrall">
+                    <p>2024
+                        <span></span>
+                    </p>
+                </span>
+                <div class="Container GridLayout">
+                    <div class="WebDev ProjektInfoContainer">
+                        <div class="ProjektInfoHeader">
+                            <a href="/index.html">
+                                <h2>Finale Webseite</h2>
+                                <h3>WebDev</h3>
+                            </a>
+                        </div>
+                        <div class="ProjektBild">
+                            <div>
+                                <img src="/Images/EigeneWebseite.png" alt="" class="Webseite Bild">
+                            </div>
+                        </div>
+                        <section class="ProjektBeschreibung">
+                            <p>
+                                Meine eigene Webseite. Vor dieser hat es schon ein paar andere Versuche oder Designs gegeben, mit welchen ich aber nicht zufrieden war.                            </p>
+                        </section>
+                    </div>
+
+
+                    <div class="Unity ProjektInfoContainer">
+                        <div class="ProjektInfoHeader">
+                            <a href="/Home/Wartungsarbeiten.html">
+                                <h2>BabyStormy</h2>
+                                <h3>Unity</h3>
+                            </a>
+                        </div>
+                        <div class="ProjektBild">
+                            <div>
+                                <img src="/Images/BabyStormy.png" alt="" class="ProjektBild">
+                            </div>
+                        </div>
+                        <section class="ProjektBeschreibung">
+                            <p>
+                                Ein Spiel, welches Muflon, Hydra und Ich für einen Gamejam entwickelt haben. Es ist sehr simple gehalten.
+                            </p>
+                        </section>
+                    </div>
+
+
+                    <div class="Unity ProjektInfoContainer">
+                        <div class="ProjektInfoHeader">
+                            <a href="/Home/Wartungsarbeiten.html">
+                                <h2>Dungeon Generator</h2>
+                                <h3>Unity</h3>
+                            </a>
+                        </div>
+                        <div class="ProjektBild">
+                            <div>
+                                <img src="/Images/DungeonGenerator.png" alt="" class="Pss Bild">
+                            </div>
+                        </div>
+                        <section class="ProjektBeschreibung">
+                            <p>
+                                Ein Dungeon-Generator, welcher immer mit einem Random-Seed einen neuen Dungeon erstellt.
+                            </p>
+                        </section>
+                    </div>
+
+
+                    <div class="Unity ProjektInfoContainer">
+                        <div class="ProjektInfoHeader">
+                            <a href="/Home/Wartungsarbeiten.html">
+                                <h2>Multiplayer Spiel</h2>
+                                <h3>Unity</h3>
+                            </a>
+                        </div>
+                        <div class="ProjektBild">
+                            <div>
+                                <img src="/Images/Pss.png" alt="" class="Pss Bild">
+                            </div>
+                        </div>
+                        <section class="ProjektBeschreibung">
+                            <p>
+                                Ein Multiplayer-Spiel, über welches ich noch nicht viel mitteilen werde.
+                            </p>
+                        </section>
+                    </div>
+
+
+
+                    <div class="WebDev ProjektInfoContainer">
+                        <div class="ProjektInfoHeader">
+                            <a href="/Home/Wartungsarbeiten.html">
+                                <h2>2. Eigene Webseite</h2>
+                                <h3>WebDev</h3>
+                            </a>
+                        </div>
+                        <div class="ProjektBild">
+                            <div>
+                                <img src="/Images/2EigeneWbseite.png" alt="" class="ProjektBild">
+                            </div>
+                        </div>
+                        <section class="ProjektBeschreibung">
+                            <p>
+                                ...
+                            </p>
+                        </section>
+                    </div>
+
+
+                    <div class="Robotik ProjektInfoContainer">
+                        <div class="ProjektInfoHeader">
+                            <a href="/Home/Wartungsarbeiten.html">
+                                <h2>Projekt Alpha</h2>
+                                <h3>Robotik</h3>
+                            </a>
+                        </div>
+                        <div class="ProjektBild">
+                            <div>
+                                <img src="/Images/ProjektAlpha.jpg" alt="" class="ProjektBild">
+                            </div>
+                        </div>
+                        <section class="ProjektBeschreibung">
+                            <p>
+                                Ein Schulprojekt, welches Martin Lorenz, Benno Blank und ich gemacht haben. Es gab einige Probleme beim Zusammenbau und 
+                                Bei der Konstruktion.
+                            </p>
+                        </section>
+                    </div>
+
+
+                    <div class="Unity ProjektInfoContainer">
+                        <div class="ProjektInfoHeader">
+                            <a href="/Home/Wartungsarbeiten.html">
+                                <h2>Rocket Delivery</h2>
+                                <h3>Unity</h3>
+                            </a>
+                        </div>
+                        <div class="ProjektBild">
+                            <div>
+                                <img src="/Images/Rocket Delivery.png" alt="" class="Rocket Delivery">
+                            </div>
+                        </div>
+                        <section class="ProjektBeschreibung">
+                            <p>
+                                In dem Spiel sammelt man mit einer Rackete Pakete auf anderen Planeten und gibt diese später ab. Je höher der Score, desto schwerer wird es.
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </div>  
+
+            <div id="2023" class="GridLayout">
+                <span class="ZeitStrall">
+                    <p>2023
+                        <span></span>
+                    </p>
+                </span>
+                <div class="Container GridLayout">
+
+                    <div class="Robotik ProjektInfoContainer">
+                        <div class="ProjektInfoHeader">
+                            <a href="/Home/Wartungsarbeiten.html">
+                                <h2>Bayernmeisterschaft</h2>
+                                <h3>Robotik</h3>
+                            </a>
+                        </div>
+                        <div class="ProjektBild">
+                            <div>
+                                <img src="/Images/RobotikRoboterVonOben.jpg" alt="" class="ProjektBild">
+                            </div>
+                        </div>
+                        <section class="ProjektBeschreibung">
+                            <p>
+                                Bayern-Robotikmeisterschaft: Unser Roboter in Einzelheiten beschrieben, mit Programmeinblicken.
+                            </p>
+                        </section>
+                    </div>
+
+
+                    <div class="Unity ProjektInfoContainer">
+                        <div class="ProjektInfoHeader">
+                            <a href="/Home/Wartungsarbeiten.html">
+                                <h2>Own CrossyRoad</h2>
+                                <h3>Unity</h3>
+                            </a>
+                        </div>
+                        <div class="ProjektBild">
+                            <img src="/Images/CrossyRoad.png" alt="" class="ProjektBild">
+                        </div>
+                        <section class="ProjektBeschreibung">
+                            <p>
+                                Hier ist meine eigene kleine Version des Mobile-Phone-Games. Das Originale
+                                Das Spiel wurde von Andy Sum, Matt Hall und Ben Weatherall entwickelt.
+                            </p>
+                        </section>
+                    </div>
+
+                    <div class="WebDev ProjektInfoContainer">
+                        <div class="ProjektInfoHeader">
+                            <a href="/Home/Wartungsarbeiten.html">
+                                <h2>Wrap Rezept</h2>
+                                <h3>WebDev</h3>
+                            </a>
+                        </div>
+                        <div class="ProjektBild">
+                            <img src="/Images/ErsteWebseite.png" alt="" class="Erste Webseite">
+                        </div>
+                        <section class="ProjektBeschreibung">
+                            <p>
+                                Mit dieser Webseite hat mein Einstieg in die Webseitenentwicklung begonnen und nicht aufgehört.
+                            </p>
+                        </section>
+                    </div>
+
+
+                    <div class="WebDev ProjektInfoContainer">
+                        <div class="ProjektInfoHeader">
+                            <a href="/Home/Wartungsarbeiten.html">
+                                <h2>1. Eigene Webseite</h2>
+                                <h3>WebDev</h3>
+                            </a>
+                        </div>
+                        <div class="ProjektBild">
+                            <div>
+                                <img src="/Images/1EigeneWebseite.png" alt="" class="ProjektBild">
+                            </div>
+                        </div>
+                        <section class="ProjektBeschreibung">
+                            <p>
+                                ...
+                            </p>
+                        </section>
+                    </div>
+
+
+
+                </div>
+            </div>  
+        </div>
+    </div>
+
+    <script src="Scripts/ProjekteFilter.js"></script>
+</body>
+</html>
