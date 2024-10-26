@@ -468,4 +468,44 @@
     #WilkommenBannerInhaltPosition span{
         font-size: 40px;
     }
+
+    .AndereProjekteInfos h2{
+        margin: 20px 0px 45px 20px;
+        font-size: 26px;
+    }
+    .AndereProjekteInfos p{
+        width: 90%;
+        font-size: 18px;
+    }
+    #AnderProjekteOderSachenAbteil{
+        height: 1120px;
+    }
+    .AndereProjekteInfos{
+        color: #001F3F;
+        position: absolute;
+        font-size: 23px;
+        font-weight: 400;
+        width: 95%;
+        left: 0;
+    }
+    .AndereProjekteInfos p{
+        height: 540px;
+    }
+    .AndereProjekteFotos{
+        width: 100%;
+        bottom: 0;
+        top: 800px;
+        background-color: #001F3F;
+        color: #001F3F;
+    }
+    .AndereProjekteFotos div {
+        height: 49.4%;
+        top: 80px;
+    }
+    #ButtonImageSlideShowLeft{
+        top: 47em;
+    }
+    #ButtonImageSlideShowRight{
+        top: 47em;
+    }
 }
